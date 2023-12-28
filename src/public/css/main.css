@@ -11,7 +11,7 @@ header {
   height: 70px;
   background-color: azure;
   justify-content: space-between;
-  align-items:center;
+  align-items: center;
   padding: 10px;
 }
 .logo {
@@ -28,4 +28,12 @@ nav a {
 }
 nav a:hover {
   color: darkblue;
+}
+@media (max-width: 700px) {
+  header {
+    flex-direction: column;
+  }
+  nav {
+    padding: 10px 0px;
+  }
 }
