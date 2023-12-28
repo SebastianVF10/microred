@@ -26,14 +26,39 @@ nav a {
   font-weight: 600;
   padding-right: 7px;
 }
-nav a:hover {
-  color: darkblue;
+
+/* Estilos de navigation.ejs*/
+.navbar-nav .nav-link {
+  background-color: #6e6e6e; /* Fondo gris oscuro */
+  border-radius: 5px; /* Agrega bordes redondeados */
+  margin: 0 5px; /* Añade espacio entre los enlaces */
+  display: block; /* Cambia a elementos de bloque */
+  padding: 10px 15px; /* Ajusta el espaciado interior */
+  min-width: 100px; /* Define la anchura mínima */
+  text-align: center; /* Centra el texto */
 }
-@media (max-width: 700px) {
-  header {
-    flex-direction: column;
-  }
-  nav {
-    padding: 10px 0px;
-  }
+
+
+/* Estilos del head.ejs*/
+.nav-link {
+  padding: 8px 12px; /* Ajusta el espaciado interior */
+  margin-left: 10px; /* Añade espacio entre los enlaces */
+  background-color: #f0f0f0; /* Fondo gris más claro */
+  border-radius: 5px; /* Agrega bordes redondeados */
+  text-decoration: none; /* Quita el subrayado de los enlaces */
+  color: black; /* Color de texto */
 }
+
+/* Estilo para fondo de los elementos del head */
+.bg-gray {
+  background-color: #ccc; /* Fondo gris */
+}
+
+/* Estilo para el logo */
+.logo-img {
+  max-width: 40px; /* Ajusta el ancho máximo de la imagen del logo */
+}
+
+
+
+
